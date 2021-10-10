@@ -1,9 +1,8 @@
 let fs = require('fs')
-global.owner = ['919539102851'] // Letakan nomor kamu disini
+global.owner = ['919539102851'] 
 global.mods = [] // Moderator?
-global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
-global.APIs = { // API Prefix
-  // nama: 'https://website'
+global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) 
+global.APIs = { 
   bx: 'https://bx-hunter.herokuapp.com',
   hardianto: 'https://hardianto-chan.herokuapp.com',
   jonaz: 'https://jonaz-api-v2.herokuapp.com',
@@ -17,8 +16,7 @@ global.APIs = { // API Prefix
   zekais: 'http://zekais-api.herokuapp.com',
   zeks: 'https://api.zeks.xyz',
 }
-global.APIKeys = { // APIKey nya disini
-  // 'https://website': 'apikey'
+global.APIKeys = { '
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
@@ -31,8 +29,8 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'Eva'
-global.author = 'Anirudh'
+global.packname = 'Eva- Sticker'
+global.author = 'Eva'
 
 global.wait = '_*Please Wait..*_'
 global.eror = '_*Server Error*_'
@@ -40,7 +38,7 @@ global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=tr
 
 global.watermark = '© EVA'
 
-global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
+global.multiplier = 69 
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
