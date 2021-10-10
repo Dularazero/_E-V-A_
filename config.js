@@ -16,7 +16,8 @@ global.APIs = {
   zekais: 'http://zekais-api.herokuapp.com',
   zeks: 'https://api.zeks.xyz',
 }
-global.APIKeys = { '
+global.APIKeys = { // The APIKey is here
+    // 'https://site': 'apikey'
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
