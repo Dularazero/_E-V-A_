@@ -397,8 +397,8 @@ module.exports = {
               } finally {
                 text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'welcome, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
                   (chat.sBye || this.bye || conn.bye || 'See you later, @user!')).replace(/@user/g, '@' + user.split`@`[0])
-                let wel = `https://hardianto-chan.herokuapp.com/api/welcome4?profile=${pp}&name=${encodeURIComponent(this.getName(user))&apikey=hardianto`
-                let lea = `https://hardianto-chan.herokuapp.com/api/goodbye4?profile=${pp}&name=${encodeURIComponent(this.getName(user))&apikey=hardianto`
+                let wel = `https://hardianto-chan.herokuapp.com/api/welcome4?profile=${pp}&name=${encodeURIComponent(this.getName(user))}&apikey=hardianto`
+                let lea = `https://hardianto-chan.herokuapp.com/api/goodbye4?profile=${pp}&name=${encodeURIComponent(this.getName(user))}&apikey=hardianto`
   
                 this.sendFile(jid, action === 'add' ? wel : lea, 'pp.jpg', text, null, false, {
                   thumbnail: await (await fetch(action === 'add' ? wel : lea)).buffer(),
@@ -479,7 +479,7 @@ global.dfail = (type, m, conn) => {
     admin: 'This command is only for *Admin* group',
     botAdmin: 'Make bot as *Admin* to use this command',
     unreg: 'Please register to use this feature by typing:\n\n*#register name.age*\n\nEXAMPLE: *#register Eva.19*',
-    nsfw: 'NSFW tidak aktif'
+    nsfw: 'NSFW Not active'
   }[type]
   if (msg) return m.reply(msg)
 }
