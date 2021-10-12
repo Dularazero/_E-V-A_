@@ -10,7 +10,7 @@ handler.all = async function (m, { isBlocked }) {
     let { isBanned } = db.data.chats[m.chat]
     let { banned } = db.data.users[m.sender]
 
-    // ketika ditag
+    // When invited
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
@@ -25,7 +25,7 @@ handler.all = async function (m, { isBlocked }) {
         return
     }
 
-    // ketika ada yang invite/kirim link grup di chat pribadi
+    // When there is an invite / send link group in a private chat
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Open this link')) && !m.isBaileys && !m.isGroup) {
         this.sendButton(m.chat, `┌〔 Invite Bots to Group 〕
 ├ 

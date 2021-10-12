@@ -42,9 +42,9 @@ ${listAdmin}
 ${antiLink ? '✅' : '❌'} Anti Link
 ${global.db.data.chats[m.chat].delete ? '❌' : '✅'} Anti Delete
 ${isBanned ? '✅' : '❌'} Banned
-${descUpdate ? '✅' : '❌'} Deskprisi
+${descUpdate ? '✅' : '❌'} Description
 ${detect ? '✅' : '❌'} Detect
-${stiker ? '✅' : '❌'} Stiker
+${stiker ? '✅' : '❌'} Sticker
 ${welcome ? '✅' : '❌'} Welcome
 
 *Bot Message Settings:*

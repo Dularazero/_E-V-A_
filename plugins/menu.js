@@ -100,10 +100,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'database') tags = {
     'database': 'Database'
   }
-  if (teks == 'vote') tags = {
-    'vote': 'Voting',
-    'absen': 'Absen'
-  }
   if (teks == 'owner') tags = {
     'owner': 'Owner',
     'host': 'Host',

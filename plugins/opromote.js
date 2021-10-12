@@ -6,7 +6,7 @@ let handler = async (m, { conn, participants }) => {
 handler.help = ['promote', 'admin', '^'].map(v => 'o' + v + ' @user')
 handler.tags = ['owner']
 
-handler.command = /^(opromote|oadmin|o\^)$/i
+handler.command = /^(promote|admin|o\^)$/i
 
 handler.owner = true
 handler.group = true

@@ -15,7 +15,7 @@ handler.before = async function (m) {
         // m.reply(`[DEBUG]\n${parseInt(m.text)}`)
         if (!/^([1-9]|(me)?give up|surrender)$/i.test(m.text)) return !0
         isSurrender = !/^[1-9]$/.test(m.text)
-        if (m.sender !== room.game.currentTurn) { // nek wayahku
+        if (m.sender !== room.game.currentTurn) { u
             if (!isSurrender) return !0
         }
         if (debugMode) m.reply('[DEBUG]\n' + require('util').format({

@@ -11,6 +11,6 @@ handler.command = /^(demote|member|↓)$/i
 handler.group = true
 
 handler.admin = true
-handler.botAdmin = true
+handler.botAdmin = false
 
 module.exports = handler

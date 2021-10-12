@@ -16,9 +16,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     }
   })
 }
-handler.help = ['fitnah <teks> @user <teks>']
+handler.help = ['fakereply <teks> @user <teks>']
 handler.tags = ['tools']
-handler.command = /^(fitnah|fakereply)$/
+handler.command = /^(fakereply|)$/
 
 module.exports = handler
 

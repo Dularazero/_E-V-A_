@@ -8,7 +8,7 @@ let handler = async (m, { conn, args: [effect], text: txt }) => {
   let [text, text2, ...text3] = txt.replace(effect, '').trimStart().split(split)
   text3 = text3.join(split)
   let url = global.API('xteam', '/textpro/' + effect, { text, text2, text3 }, 'APIKEY')
-  await conn.sendFile(m.chat, url, 'ephoto.jpg', `*ENPHOTO360*\n*Efek:* ${effect}`, m, false, { thumbnail: Buffer.alloc(0) })
+  await conn.sendFile(m.chat, url, 'Eva.jpg', `*EvA*\n*Efek:* ${effect}`, m, false, { thumbnail: Buffer.alloc(0) })
 }
 handler.help = ['textpro'].map(v => v + ' <effect> <text>|[text2]|[text3]')
 handler.tags = ['tools']

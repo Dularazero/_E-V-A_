@@ -35,14 +35,14 @@ ${sortedLevel.slice(0, len).map(({ jid, level }, i) => `├ ${i + 1}. ${particip
 handler.help = ['leaderboard [number of users]', 'lb [number of users]']
 handler.tags = ['xp']
 handler.command = /^(leaderboard|lb)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = false
 handler.private = false
 
 handler.admin = false
-handler.botAdmin = false
+handler.botAdmin = true
 
 handler.fail = null
 handler.exp = 0

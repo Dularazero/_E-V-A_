@@ -29,7 +29,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 *TITLE:* ${title}
 *Audio File Size:* ${filesizeF}
 *Video File Sizeo:* ${yt2.filesizeF}
-*ENJOY WITH YOUR SONG..*
+*Select Video/Audio 👇👇👇*
 `.trim(), '© Eva', 'Audio', `.yta ${vid.url}`, 'Video', `.yt ${vid.url}`)
 }
 handler.help = ['play','song'].map(v => v + ' <QUERY>')
