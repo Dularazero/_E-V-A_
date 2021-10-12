@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.owner = ['919539102851'] 
+global.owner = [] 
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) 
 global.APIs = { 
@@ -9,7 +9,7 @@ global.APIs = {
   neoxr: 'https://neoxr-api.herokuapp.com',
   nrtm: 'https://nurutomo.herokuapp.com',
   pencarikode: 'https://pencarikode.xyz',
-  xteam: 'dece97b8c1307c7f',
+  xteam: 'https://api.xteam.xyz/',
   fxc7: 'pnj8NAJb',
   l0lhuman: 'https://api.lolhuman.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
