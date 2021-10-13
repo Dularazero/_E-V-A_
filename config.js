@@ -26,18 +26,18 @@ global.APIKeys = { // The APIKey is here
   'https://api.xteam.xyz': 'isi apikey lu',
   'https://api.lolhuman.xyz': 'isi pake apikey lu',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'apivinz',
+  'https://api.zeks.xyz': 'rNOP3N9WFFY7tqbMeNp1lmWkdwLqqqq',
 }
 
 // Sticker WM
-global.packname = 'Sticker'
-global.author = 'Eva'
+global.packname = 'LISA 🐤'
+global.author = 'MPM 🔥'
 
 global.wait = '_*Please Wait..*_'
 global.eror = '_*Server Error*_'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
-global.watermark = '© EVA'
+global.watermark = '© LISA'
 
 global.multiplier = 69 
 
