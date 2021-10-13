@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.owner = [919539102851] 
+global.owner = [94711392491] 
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) 
 global.APIs = { 
