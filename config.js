@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.owner = [] 
+global.owner = [919539102851] 
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) 
 global.APIs = { 
@@ -30,7 +30,7 @@ global.APIKeys = { // The APIKey is here
 }
 
 // Sticker WM
-global.packname = 'Eva- Sticker'
+global.packname = 'Sticker'
 global.author = 'Eva'
 
 global.wait = '_*Please Wait..*_'
